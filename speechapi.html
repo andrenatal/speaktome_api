@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="speech.js"></script>
+    <script>
+
+
+        var mozspeech = new mozillaSpeech({'lang':'en-us'});
+        function startSpeech(){
+            mozspeech.start();
+        }
+
+
+    </script>
+</head>
+<body>
+<input type="button" onclick="startSpeech()" value="OK"/>
+</body>
+</html>
